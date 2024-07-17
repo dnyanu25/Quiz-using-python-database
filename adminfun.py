@@ -5,7 +5,7 @@ import main
 
 
 c, connection = sc.createconn()
-
+#connection
 def fetchQjava(c):
     c, connection = sc.createconn()
     c.execute("SELECT ID, QUES, OPT1, OPT2, OPT3, OPT4, ANS, ANSWEROPT FROM Questionjava")
